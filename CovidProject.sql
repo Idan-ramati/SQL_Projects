@@ -100,7 +100,6 @@ WHERE continent IS NOT NULL
 ORDER BY 1,2;
 
 -- Looking at total population vs vaccinations
--- Look at Africa, Zimbabwe for a good example of this query (its in the end of the table)
 SELECT dea.continent, dea.location, dea.date, dea.population, vac.new_vaccinations
 , SUM(CAST(vac.new_vaccinations AS SIGNED)) OVER (PARTITION BY dea.location ORDER BY dea.location, dea.date) AS RollingPeopleVaccinated
 FROM PortfolioProject.coviddeaths dea
