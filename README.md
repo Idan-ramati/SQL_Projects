@@ -8,3 +8,6 @@ Project Name - CovidProject
 Short Description: In this project i will be using SQL to do some Data Exploration on real time COVID data. 
 I will then visualize the data in Tableau for my next project.
 
+PROJECT 2:
+Project Name - NashvilleHousingDataCleaning
+Short Description: In this project i will be using SQL to do some Data Cleaning. I will modify the table data structure too so that it will be clean and ready for analyzing
