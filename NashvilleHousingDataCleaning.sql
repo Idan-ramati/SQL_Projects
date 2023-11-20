@@ -193,7 +193,7 @@ FROM RowNumCTE
 WHERE row_num > 1
 ORDER BY UniqueID;
 
-DELETE -- Works Only in SQL_SERVER (Not in Oracle - MySql)
+DELETE -- Deleting From CTE Works Only in SQL_SERVER (Not in Oracle - MySql)
 FROM RowNumCTE 
 WHERE row_num > 1;
 
