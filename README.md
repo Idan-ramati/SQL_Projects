@@ -1,6 +1,6 @@
-# PortfolioProjects
-This Repository will hold all of the code and queries from the Portfolio Projects I will create.
-In this series of # PortfolioProjects i will use some data tools such as SQL, PYTHON, TABLEAU AND POWER BI in order to clean, analyze and visualize some interesting data.
+# SQL_Projects
+This Repository will hold all of the code and queries using MySql.
+In this series of # SQL_Projects i will use some data tools such as SQL,Excel and POWER BI in order to clean, analyze and visualize some interesting data.
 
 PROJECT 1:
 -- Project Name - CovidProject.
